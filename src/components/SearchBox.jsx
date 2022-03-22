@@ -9,7 +9,7 @@ export const SearchBox = () => {
   const dispatchNow = useDispatch()
 
   let onSearchHandle = () => {
-    let url = 'http://api.weatherapi.com/v1/current.json?key=254b2ff666be4fdfb84105611222103&q=' + state + '&aqi=no'
+    let url = 'https://api.weatherapi.com/v1/current.json?key=92a1cc86d90849278d5211759222103&q=' + state + '&aqi=no'
 
     fetch(url)
       .then((res) => {
