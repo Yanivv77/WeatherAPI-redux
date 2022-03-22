@@ -49,7 +49,7 @@ export const SearchBox = () => {
 
   useEffect(() => {
     load()
-  }, [load])
+  }, [])
 
   return (
     <Form className=" d-flex">
