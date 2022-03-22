@@ -54,7 +54,7 @@ export const SearchBox = () => {
   return (
     <Form className=" d-flex">
       <Nav className="ml-auto  flex-row-reverse ">
-        <Button type="submit" className="btn btn-success my-2 my-sm-0" onClick={onSearchHandle}>
+        <Button type="button" className="btn btn-success my-2 my-sm-0" onClick={onSearchHandle}>
           Search
         </Button>
         <Form.Control
